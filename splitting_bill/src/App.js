@@ -19,4 +19,6 @@ const initialFriends = [
   },
 ];
 
-export default function App() {}
+export default function App() {
+  return <div>Hello</div>;
+}
