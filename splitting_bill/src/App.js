@@ -20,7 +20,14 @@ const initialFriends = [
 ];
 
 export default function App() {
-  return <div>Hello</div>;
+  return (
+    <div>
+      <div>
+        <FriendList />
+      </div>
+    </div>;
+
+  )
 }
 
 function FriendList() {
