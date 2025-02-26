@@ -45,7 +45,7 @@ function Friend({ friend }) {
   return (
     <li>
       <img src={friend.image} alt={friend.name} />
-      <h3>{friend.name}</h3>
+      <h2>{friend.name}</h2>
     </li>
   );
 }
