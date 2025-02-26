@@ -30,5 +30,7 @@ export default function App() {
 }
 
 function FriendList() {
+  const friends = initialFriends;
+
   return <ul>List</ul>;
 }
