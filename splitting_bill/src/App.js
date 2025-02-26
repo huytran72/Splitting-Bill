@@ -22,7 +22,7 @@ const initialFriends = [
 export default function App() {
   return (
     <div className="app">
-      <div>
+      <div className="sidebar">
         <FriendList />
       </div>
     </div>
