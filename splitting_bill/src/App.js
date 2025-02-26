@@ -21,7 +21,7 @@ const initialFriends = [
 
 export default function App() {
   return (
-    <div>
+    <div className="app">
       <div>
         <FriendList />
       </div>
