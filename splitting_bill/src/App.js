@@ -41,4 +41,6 @@ function FriendList() {
   );
 }
 
-function Friend({ friend }) {}
+function Friend({ friend }) {
+  return <li>{friend.name}</li>;
+}
