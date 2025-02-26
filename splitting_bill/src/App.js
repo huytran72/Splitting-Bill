@@ -25,9 +25,8 @@ export default function App() {
       <div>
         <FriendList />
       </div>
-    </div>;
-
-  )
+    </div>
+  );
 }
 
 function FriendList() {
