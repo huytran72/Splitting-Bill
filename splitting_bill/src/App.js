@@ -32,7 +32,11 @@ export default function App() {
 function FriendList() {
   const friends = initialFriends;
 
-  return <ul>
-    {friends.map(friend) => ()}
-  </ul>;
+  return (
+    <ul>
+      {friends.map((friend) => (
+        <Friend friend={friend} key={friend.id} />
+      ))}
+    </ul>
+  );
 }
