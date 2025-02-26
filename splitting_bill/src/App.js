@@ -42,5 +42,9 @@ function FriendList() {
 }
 
 function Friend({ friend }) {
-  return <li>{friend.name}</li>;
+  return (
+    <li>
+      <img src={friend.image} alt={friend.name} />
+    </li>
+  );
 }
