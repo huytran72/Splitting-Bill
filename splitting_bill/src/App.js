@@ -73,6 +73,7 @@ function FormAddFriend() {
       <input type="text" />
 
       <lable>Image URL</lable>
+      <input type="text" />
     </form>
   );
 }
