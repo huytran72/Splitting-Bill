@@ -66,6 +66,8 @@ function Friend({ friend }) {
   );
 }
 
+function button() {}
+
 function FormAddFriend() {
   return (
     <form className="form-add-friend">
