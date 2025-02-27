@@ -66,7 +66,7 @@ function Friend({ friend }) {
   );
 }
 
-function button({ children }) {
+function Button({ children }) {
   return <button className="button">{children}</button>;
 }
 
