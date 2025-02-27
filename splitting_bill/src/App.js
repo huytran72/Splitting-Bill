@@ -1,7 +1,7 @@
 const initialFriends = [
   {
     id: 118836,
-    name: "Kenny",
+    name: "Kethy",
     image: "https://i.pravatar.cc/48?u=118836",
     balance: -11,
   },
@@ -46,6 +46,12 @@ function Friend({ friend }) {
     <li>
       <img src={friend.image} alt={friend.name} />
       <h3>{friend.name}</h3>
+
+      {friend.balance < 0 && (
+        <p className="red">
+          You owe {friend.name} {friend.balance} €
+        </p>
+      )}
     </li>
   );
 }
