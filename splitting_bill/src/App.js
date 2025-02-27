@@ -71,6 +71,8 @@ function FormAddFriend() {
     <form className="form-add-friend">
       <label> Friend name </label>
       <input type="text" />
+
+      <lable>Image URL</lable>
     </form>
   );
 }
