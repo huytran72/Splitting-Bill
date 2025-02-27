@@ -66,7 +66,7 @@ function Friend({ friend }) {
   );
 }
 
-function button() {}
+function button({ children }) {}
 
 function FormAddFriend() {
   return (
