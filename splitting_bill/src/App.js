@@ -24,6 +24,7 @@ export default function App() {
     <div className="app">
       <div className="sidebar">
         <FriendList />
+        <Button></Button>
         <FormAddFriend />
       </div>
     </div>
@@ -77,7 +78,7 @@ function FormAddFriend() {
       <label>Friend name </label>
       <input type="text" />
 
-      <lable>Image URL</lable>
+      <label>Image URL</label>
       <input type="text" />
 
       <Button>Add</Button>
