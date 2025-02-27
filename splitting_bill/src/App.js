@@ -65,3 +65,5 @@ function Friend({ friend }) {
     </li>
   );
 }
+
+function FormAddFriend() {}
