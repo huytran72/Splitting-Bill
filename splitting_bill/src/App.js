@@ -58,6 +58,12 @@ function Friend({ friend }) {
           You owe {friend.name} {Math.abs(friend.balance)} €
         </p>
       )}
+
+      {friend.balance === 0 && (
+        <p className="red">
+          You owe {friend.name} {Math.abs(friend.balance)} €
+        </p>
+      )}
     </li>
   );
 }
