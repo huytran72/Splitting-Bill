@@ -60,9 +60,7 @@ function Friend({ friend }) {
       )}
 
       {friend.balance === 0 && (
-        <p className="red">
-          You owe {friend.name} {Math.abs(friend.balance)} €
-        </p>
+        <p className="red">You and {friend.name} are even</p>
       )}
     </li>
   );
