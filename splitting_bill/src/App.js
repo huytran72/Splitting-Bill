@@ -86,4 +86,6 @@ function FormAddFriend() {
   );
 }
 
-function FormSplitBill() {}
+function FormSplitBill() {
+  return <form className="form-split-bill"></form>;
+}
