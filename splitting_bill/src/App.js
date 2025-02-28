@@ -100,6 +100,7 @@ function FormSplitBill() {
       <input type="text" />
 
       <label>📝 Description</label>
+      <input type="text" />
 
       <Button>Split bill</Button>
     </form>
