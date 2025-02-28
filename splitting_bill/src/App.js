@@ -95,6 +95,8 @@ function FormSplitBill() {
 
       <label>💰 Bill value</label>
       <input type="number" />
+
+      <Button>Split bill</Button>
     </form>
   );
 }
