@@ -85,3 +85,5 @@ function FormAddFriend() {
     </form>
   );
 }
+
+function FormSplitBill() {}
