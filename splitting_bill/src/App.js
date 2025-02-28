@@ -99,6 +99,8 @@ function FormSplitBill() {
       <label>👯 Select friends</label>
       <input type="text" />
 
+      <label>📝 Description</label>
+
       <Button>Split bill</Button>
     </form>
   );
