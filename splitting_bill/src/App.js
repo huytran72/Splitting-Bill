@@ -97,6 +97,7 @@ function FormSplitBill() {
       <input type="number" />
 
       <label>👯 Select friends</label>
+      <input type="text" />
 
       <Button>Split bill</Button>
     </form>
