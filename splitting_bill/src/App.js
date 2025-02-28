@@ -87,5 +87,9 @@ function FormAddFriend() {
 }
 
 function FormSplitBill() {
-  return <form className="form-split-bill"></form>;
+  return (
+    <form className="form-split-bill">
+      <h2>Split a bill with </h2>
+    </form>
+  );
 }
