@@ -94,7 +94,7 @@ function FormSplitBill() {
       <h2>Split a bill with </h2>
 
       <label>💰 Bill value</label>
-      <input type="number" />
+      <input type="text" />
 
       <label>👯 Your expense</label>
       <input type="text" />
