@@ -106,6 +106,7 @@ function FormAddFriend() {
     console.log(newFriend);
 
     setName("");
+    setImage("");
   }
 
   return (
