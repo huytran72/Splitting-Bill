@@ -97,7 +97,7 @@ function FormAddFriend() {
 
     const newFriend = {
       name,
-      image,
+      image: `${image}?=${id}`,
       balance: 0,
       id: crypto.randomUUID(),
     };
