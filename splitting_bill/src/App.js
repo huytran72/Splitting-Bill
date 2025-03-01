@@ -92,6 +92,8 @@ function FormAddFriend() {
   const [name, setName] = useState("");
   const [image, setImage] = useState("");
 
+  function handleSubmit(e) {}
+
   return (
     <form className="form-add-friend" onSubmit={handleSubmit}>
       <label>👯 Friend name </label>
