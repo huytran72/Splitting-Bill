@@ -96,7 +96,7 @@ function FormSplitBill() {
       <label>💰 Bill value</label>
       <input type="number" />
 
-      <label>👯 Select friends</label>
+      <label>👯 Your expense</label>
       <input type="text" />
 
       <label>📝 Description</label>
