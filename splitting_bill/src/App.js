@@ -102,7 +102,11 @@ function FormAddFriend() {
       />
 
       <label> Image URL</label>
-      <input type="text" />
+      <input
+        type="text"
+        value={image}
+        onChange={(e) => setImage(e.target.value)}
+      />
 
       <Button>Add</Button>
     </form>
