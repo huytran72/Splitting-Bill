@@ -89,6 +89,8 @@ function Button({ children, onClick }) {
 }
 
 function FormAddFriend() {
+  const [name, setName] = useState("");
+
   return (
     <form className="form-add-friend">
       <label>👯 Friend name </label>
