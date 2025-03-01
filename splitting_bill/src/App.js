@@ -101,6 +101,8 @@ function FormAddFriend() {
       balance: 0,
       id: crypto.randomUUID(),
     };
+
+    console.log(newFriend);
   }
 
   return (
