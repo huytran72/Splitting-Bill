@@ -22,7 +22,7 @@ const initialFriends = [
 ];
 
 export default function App() {
-  const [showAddFriend, setShowAddFriend] = useState(false);
+  const [showAddFriend, setShowAddFriend] = useState(true);
 
   return (
     <div className="app">
