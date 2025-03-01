@@ -93,7 +93,7 @@ function FormAddFriend() {
   const [image, setImage] = useState("");
 
   return (
-    <form className="form-add-friend">
+    <form className="form-add-friend" onSubmit={handleSubmit}>
       <label>👯 Friend name </label>
       <input
         type="text"
