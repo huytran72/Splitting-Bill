@@ -95,7 +95,12 @@ function FormAddFriend() {
   function handleSubmit(e) {
     e.preventDefault();
 
-    const newFriend = {};
+    const newFriend = {
+      name,
+      image,
+      balance: 0,
+      id: crypto.randomUUID(),
+    };
   }
 
   return (
