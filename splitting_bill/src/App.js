@@ -95,11 +95,12 @@ function FormAddFriend() {
   function handleSubmit(e) {
     e.preventDefault();
 
+    const id = crypto.randomUUID();
     const newFriend = {
       name,
       image: `${image}?=${id}`,
       balance: 0,
-      id: crypto.randomUUID(),
+      id,
     };
 
     console.log(newFriend);
