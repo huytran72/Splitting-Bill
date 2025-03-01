@@ -74,8 +74,8 @@ function Friend({ friend }) {
   );
 }
 
-function Button({ children }) {
-  return <button className="button">{children}</button>;
+function Button({ children, onClick }) {
+  return <button className="button" onClick={}>{children}</button>;
 }
 
 function FormAddFriend() {
