@@ -104,6 +104,8 @@ function FormAddFriend() {
     };
 
     console.log(newFriend);
+
+    setName("");
   }
 
   return (
