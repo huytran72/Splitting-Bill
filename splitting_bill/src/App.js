@@ -22,6 +22,7 @@ const initialFriends = [
 ];
 
 export default function App() {
+  const [friends, setFriends] = useState(initialFriends);
   const [showAddFriend, setShowAddFriend] = useState(true);
 
   function handleShowAddFriend() {
