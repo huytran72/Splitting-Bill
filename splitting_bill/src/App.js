@@ -93,7 +93,7 @@ function Button({ children, onClick }) {
   );
 }
 
-function FormAddFriend() {
+function FormAddFriend({ onAddFriend }) {
   const [name, setName] = useState("");
   const [image, setImage] = useState("");
 
