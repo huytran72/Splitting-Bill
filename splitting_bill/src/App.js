@@ -72,7 +72,7 @@ function FriendList({ friends, onSelection }) {
   );
 }
 
-function Friend({ friend }) {
+function Friend({ friend, onSelection }) {
   return (
     <li>
       <img src={friend.image} alt={friend.name} />
