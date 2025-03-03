@@ -112,7 +112,7 @@ function FormAddFriend({ onAddFriend }) {
       id,
     };
 
-    console.log(newFriend);
+    onAddFriend(newFriend);
 
     setName("");
     setImage("");
