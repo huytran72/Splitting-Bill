@@ -32,7 +32,7 @@ export default function App() {
   return (
     <div className="app">
       <div className="sidebar">
-        <FriendList />
+        <FriendList friends={friends} />
         {showAddFriend && <FormAddFriend />}
         <Button onClick={handleShowAddFriend}>
           {showAddFriend ? "Close" : "Add Friend"}
