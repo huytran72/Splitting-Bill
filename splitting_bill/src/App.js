@@ -44,7 +44,7 @@ export default function App() {
   );
 }
 
-function FriendList() {
+function FriendList({ friends }) {
   const friends = initialFriends;
 
   return (
