@@ -62,7 +62,7 @@ export default function App() {
   );
 }
 
-function FriendList({ friends }) {
+function FriendList({ friends, onSelection }) {
   return (
     <ul>
       {friends.map((friend) => (
