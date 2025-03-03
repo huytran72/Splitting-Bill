@@ -29,6 +29,10 @@ export default function App() {
     setShowAddFriend(!showAddFriend);
   }
 
+  function handleAddFriend(newFriend) {
+    setFriends([...friends, newFriend]);
+  }
+
   return (
     <div className="app">
       <div className="sidebar">
