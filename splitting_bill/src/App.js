@@ -57,8 +57,6 @@ export default function App() {
 }
 
 function FriendList({ friends }) {
-  const friends = initialFriends;
-
   return (
     <ul>
       {friends.map((friend) => (
