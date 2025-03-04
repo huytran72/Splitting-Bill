@@ -154,7 +154,7 @@ function FormSplitBill({ selectedFriend }) {
       <label>👯 Your expense</label>
       <input type="text" />
 
-      <label>📝 X's expense</label>
+      <label>📝 {selectedFriend.name}'s expense</label>
       <input type="text" disabled />
 
       <label>😝 Who is paying the bill</label>
