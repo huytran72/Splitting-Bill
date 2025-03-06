@@ -159,6 +159,8 @@ function FormAddFriend({ onAddFriend }) {
 }
 
 function FormSplitBill({ selectedFriend }) {
+  const [bill, setBill] = useState("");
+
   return (
     <form className="form-split-bill">
       <h2>Split a bill with {selectedFriend.name} </h2>
