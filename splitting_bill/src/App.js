@@ -38,8 +38,8 @@ export default function App() {
     setShowAddFriend(!showAddFriend);
   }
 
-  function handleAddFriend(newFriend) {
-    setFriends([...friends, newFriend]);
+  function handleAddFriend(friend) {
+    setFriends([...friends, friend]);
     setShowAddFriend(false);
   }
 
