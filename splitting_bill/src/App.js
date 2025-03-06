@@ -160,6 +160,7 @@ function FormAddFriend({ onAddFriend }) {
 
 function FormSplitBill({ selectedFriend }) {
   const [bill, setBill] = useState("");
+  const [userExpense, setUserExpense] = useState("");
 
   return (
     <form className="form-split-bill">
