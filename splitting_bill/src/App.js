@@ -178,7 +178,7 @@ function FormSplitBill({ selectedFriend }) {
       <input
         type="text"
         value={paidByuser}
-        onChange={(e) => setPaidByUser(e.target.value)}
+        onChange={(e) => setPaidByUser(Number(e.target.value))}
       />
 
       <label>📝 {selectedFriend.name}'s expense</label>
