@@ -166,6 +166,10 @@ function FormSplitBill({ selectedFriend }) {
 
   function handleSumit(e) {
     e.preventDefault();
+
+    if (!bill || !paidByuser) {
+      return;
+    }
   }
 
   return (
