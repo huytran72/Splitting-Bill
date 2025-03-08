@@ -167,7 +167,7 @@ function FormAddFriend({ onAddFriend }) {
   );
 }
 
-function FormSplitBill({ selectedFriend }) {
+function FormSplitBill({ selectedFriend, onSplitBill }) {
   const [bill, setBill] = useState("");
   const [paidByuser, setPaidByUser] = useState("");
   const paidByFriend = bill ? bill - paidByuser : "";
