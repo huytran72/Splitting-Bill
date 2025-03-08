@@ -49,7 +49,7 @@ export default function App() {
     setShowAddFriend(false);
   }
 
-  function handleSplitBill() {}
+  function handleSplitBill(value) {}
 
   return (
     <div className="app">
