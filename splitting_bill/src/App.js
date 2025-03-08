@@ -49,6 +49,8 @@ export default function App() {
     setShowAddFriend(false);
   }
 
+  handleSplitBill() {}
+
   return (
     <div className="app">
       <div className="sidebar">
